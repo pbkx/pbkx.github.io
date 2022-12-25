@@ -2,4 +2,4 @@
 permalink: /debate/
 ---
 
-debateable 
+<a href="https://pbkx.github.io/debate/aff">aff</a>	| <a href="https://pbkx.github.io/debate/neg">neg</a> 
