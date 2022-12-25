@@ -1,4 +1,5 @@
 ---
+title: debate
 permalink: /debate/
 ---
 
