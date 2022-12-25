@@ -1,3 +1,5 @@
 ---
 permalink: /debate/
 ---
+
+debateable 
