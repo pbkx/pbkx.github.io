@@ -1,5 +1,4 @@
 ---
-layout: default
 title: things
 permalink: /things/
 ---
