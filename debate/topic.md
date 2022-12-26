@@ -1,5 +1,5 @@
 ---
-title: topic
+title: debate/topic
 permalink: /debate/topic/
 ---
 ###### /debate/topic/<br><br>
