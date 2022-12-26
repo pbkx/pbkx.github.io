@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: Minima
 title: home
 ---
 # neoliberal surrealism
