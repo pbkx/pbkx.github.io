@@ -1,6 +1,6 @@
 ---
 layout: surrealism
-title: projects
+title: projects | neoliberal surrealism
 permalink: /projects/
 ---
 
