@@ -1,6 +1,6 @@
 ---
 layout: surrealism
-title: things
+title: things | neoliberal surrealism
 permalink: /things/
 ---
 
