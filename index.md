@@ -1,6 +1,5 @@
 ---
-layout: default
-theme: Minima
+layout: surrealism
 title: home
 ---
 
