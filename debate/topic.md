@@ -1,4 +1,5 @@
 ---
+layout: surrealism
 title: debate/topic
 permalink: /debate/topic/
 ---
