@@ -1,6 +1,6 @@
 ---
 layout: surrealism
-title: home
+title: home | neoliberal surrealism
 ---
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
