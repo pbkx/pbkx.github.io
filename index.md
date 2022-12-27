@@ -5,7 +5,6 @@ title: home | neoliberal surrealism
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-<a href="https://pbkx.github.io/debate/">debate</a>	| <a href="https://pbkx.github.io/robotics/">robotics</a> | <a href="https://pbkx.github.io/projects/">projects</a> | <a href="https://pbkx.github.io/things/">things</a><br>
 <br>
 Tomorrow, and tomorrow, and tomorrow,<br>
 Creeps in this petty pace from day to day,<br>
