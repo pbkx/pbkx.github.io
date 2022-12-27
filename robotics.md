@@ -1,6 +1,6 @@
 ---
 layout: surrealism
-title: robotics
+title: robotics | neoliberal surrealism
 permalink: /robotics/
 ---
 
