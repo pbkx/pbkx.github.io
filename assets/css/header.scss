@@ -1,0 +1,48 @@
+/* HSL */
+$color1: hsla(117%, 50%, 84%, 1);
+$color2: hsla(114%, 15%, 75%, 1);
+$color3: hsla(305%, 12%, 61%, 1);
+$color4: hsla(327%, 19%, 45%, 1);
+$color5: hsla(319%, 13%, 5%, 1);
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background: $color1;
+  color: $color5;
+}
+
+div {
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+code {
+  padding: 5px 0px;
+}
+
+.parent {
+  background: $color2;
+  width: 80vw;
+  margin: 8vw 10vw;
+  height: 200px;
+  border: 5px dotted $color4;
+}
+
+.child {
+  opacity: 0.8;
+  height: 150px;
+  background: $color3;
+  border: 3px dotted $color4;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
