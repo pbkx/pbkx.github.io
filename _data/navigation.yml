@@ -1,0 +1,10 @@
+- name: home
+  link: /
+- name: debate
+  link: /debate/
+- name: robotics
+  link: /robotics/
+- name: projects
+  link: /projects/
+- name: things
+  link: /things/
