@@ -1,5 +1,5 @@
 ---
-title: debate
+title: debate | neoliberal surrealism
 permalink: /debate/
 layout: surrealism 
 ---
