@@ -1,4 +1,5 @@
 ---
+layout: surrealism
 title: debate/neg
 permalink: /debate/neg/
 ---
