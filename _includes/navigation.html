@@ -1,11 +1,5 @@
 <nav>
-    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>home</a>
-    <a> | </a>
-    <a href="/debate/"{% if page.url == "/debate/" %}style="color: red;"{% endif %}>debate</a>
-    <a> | </a>
-    <a href="/robotics/"{% if page.url == "/robotics/" %}style="color: red;"{% endif %}>robotics</a>
-    <a> | </a>
-    <a href="/projects/"{% if page.url == "/projects/" %}style="color: red;"{% endif %}>projects</a>
-    <a> | </a>
-    <a href="/things/"{% if page.url == "/things/" %}style="color: red;"{% endif %}>things</a>
-</nav>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    {% endfor %}
+  </nav>
