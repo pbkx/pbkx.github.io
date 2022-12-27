@@ -17,4 +17,4 @@ And then is heard no more. It is a tale<br>
 Told by an idiot, full of sound and fury,<br>
 Signifying nothing.<br>
 
-![Logo](/assets/images/circle.ico)
+![Logo](/assets/images/circle.png)
