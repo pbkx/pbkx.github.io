@@ -16,3 +16,9 @@ That struts and frets his hour upon the stage,<br>
 And then is heard no more. It is a tale<br>
 Told by an idiot, full of sound and fury,<br>
 Signifying nothing.<br>
+
+<div>
+   <div>
+      <p>This is a paragraph inside stylized divs</p>
+   </div>
+</div>
