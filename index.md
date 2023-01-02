@@ -5,6 +5,7 @@ title: home | neoliberal surrealism
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
+<h1> hi </h1>
 <br>
 Tomorrow, and tomorrow, and tomorrow,<br>
 Creeps in this petty pace from day to day,<br>
