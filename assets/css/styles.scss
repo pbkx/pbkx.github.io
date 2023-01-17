@@ -17,3 +17,19 @@ a {
 .center {
   text-align: center;
 }
+
+html {
+  height: 100%
+}
+
+* {
+  margin: 100;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+}
