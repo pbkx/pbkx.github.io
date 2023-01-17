@@ -22,7 +22,7 @@ title: home | neoliberal surrealism
        <a>
            <nav> 
              {% for item in site.data.navigation %}
-               <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+               <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} style="text-decoration:none">
                   {{ item.name }}
                </a>
                {% endfor %}
