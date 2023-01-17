@@ -12,13 +12,15 @@ title: home | neoliberal surrealism
   <body>
     <h1 style="font-family:'Franklin Gothic Medium', sans-serif"><center>neoliberal surrealism</center></h1>  
     
-    <nav> <center>
+    <nav> <center> <a>
       {% for item in site.data.navigation %}
         <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
       {% endfor %}
-      <a><br>---</a>
+      <br>---
+      </a>
+      </center>
     </nav>
-   </center>
+
 
 
     <br><a><center>
