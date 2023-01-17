@@ -2,46 +2,46 @@
 title: home | neoliberal surrealism
 ---
 <!doctype html>
+
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  </head>
-  <body>
-   <h1 style="font-family:'Franklin Gothic Medium', sans-serif">
+   <meta charset="utf-8">
+      <title>
+         {{ page.title }}
+      </title>
+      <link rel="stylesheet" href="/assets/css/styles.css">
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+   </head>
+   <body>
+      <h1 style="font-family:'Franklin Gothic Medium', sans-serif">
+         <center>
+            neoliberal surrealism
+       </center>
+    </h1>  
       <center>
-         neoliberal surrealism
-      </center>
-   </h1>  
-    
-   <center>
-      <a>
-         <nav> 
-            {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-               {{ item.name }}
-            </a>
-            {% endfor %}
-         </nav>
+       <a>
+           <nav> 
+             {% for item in site.data.navigation %}
+               <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+                  {{ item.name }}
+               </a>
+               {% endfor %}
+           </nav>
+       </a>
+     </center>
+      <br><a>
+       <center>
+            Tomorrow, and tomorrow, and tomorrow,<br>
+            Creeps in this petty pace from day to day,<br>
+           To the last syllable of recorded time,<br>
+            And all our yesterdays have lighted fools<br>
+            The way to dusty death. Out, out, brief candle!<br>
+            Life's but a walking shadow, a poor player,<br>
+            That struts and frets his hour upon the stage,<br>
+            And then is heard no more. It is a tale<br>
+            Told by an idiot, full of sound and fury,<br>
+            Signifying nothing.<br>
+         </center>
       </a>
-   </center>
-   
-
-
-
-    <br><a><center>
-      Tomorrow, and tomorrow, and tomorrow,<br>
-      Creeps in this petty pace from day to day,<br>
-      To the last syllable of recorded time,<br>
-      And all our yesterdays have lighted fools<br>
-      The way to dusty death. Out, out, brief candle!<br>
-      Life's but a walking shadow, a poor player,<br>
-      That struts and frets his hour upon the stage,<br>
-      And then is heard no more. It is a tale<br>
-      Told by an idiot, full of sound and fury,<br>
-      Signifying nothing.<br>
-    </a></center>
-  </body>
+   </body>
 </html>
