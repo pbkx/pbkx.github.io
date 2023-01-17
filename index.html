@@ -10,7 +10,16 @@ title: home | neoliberal surrealism
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
-    <h1 style="font-family:'Franklin Gothic Medium', sans-serif"><center>neoliberal surrealism</center></h1>     
+    <h1 style="font-family:'Franklin Gothic Medium', sans-serif"><center>neoliberal surrealism</center></h1>  
+    
+    <nav> <center>
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+   </center>
+
+
     <br><a><center>
       Tomorrow, and tomorrow, and tomorrow,<br>
       Creeps in this petty pace from day to day,<br>
