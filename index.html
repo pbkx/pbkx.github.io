@@ -10,16 +10,24 @@ title: home | neoliberal surrealism
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
-    <h1 style="font-family:'Franklin Gothic Medium', sans-serif"><center>neoliberal surrealism</center></h1>  
-    
-    <nav> <center> <a>
-      {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-      {% endfor %}
-      <br>---
-      </a>
+   <h1 style="font-family:'Franklin Gothic Medium', sans-serif">
+      <center>
+         neoliberal surrealism
       </center>
-    </nav>
+   </h1>  
+    
+   <center>
+      <a>
+         <nav> 
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+               {{ item.name }}
+            </a>
+            {% endfor %}
+         </nav>
+      </a>
+   </center>
+   
 
 
 
