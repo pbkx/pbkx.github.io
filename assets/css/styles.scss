@@ -33,8 +33,8 @@ a {
   margin-right: 40px;
 }
 
-h1:hover {
-  color: #967bb6;
+h1 a:hover span {
+  color: #967bb6 !important;
 }
 
 .center {
